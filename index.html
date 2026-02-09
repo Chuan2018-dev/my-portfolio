@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Trimucha | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body id="top">
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-house home-icon" onclick="goHome()"></i>
+      <span class="name">Christian Trimucha</span>
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Project Details</a>
+      <a href="#skills">Skills</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT ME -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="yummy.png" alt="Profile Image">
+      <div>
+        <h3>Christian Trimucha</h3>
+        <p>
+          I am an aspiring web developer with a strong interest in building
+          responsive and user-friendly applications. I enjoy learning modern
+          web technologies and continuously improving my development skills.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Project Details</h2>
+
+    <div class="project">
+      <h3>Student Portal System</h3>
+      <p>Manages student profiles, grades, and academic records.</p>
+    </div>
+
+    <div class="project">
+      <h3>Online Ordering System</h3>
+      <p>A responsive website for ordering products online.</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>A single-page portfolio showcasing skills and projects.</p>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+
+    <div id="recommendation-list">
+      <div class="recommendation">Christian is a good and <strong></strong> developer.</div>
+      <div class="recommendation">He demonstrates strong problem-solving skills.</div>
+      <div class="recommendation">Always eager to learn and improve.</div>
+    </div>
+
+    <form id="recommendation-form">
+      <textarea id="recommendation-input" placeholder="Write a recommendation..." required></textarea>
+      <button type="submit">Submit Recommendation</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
